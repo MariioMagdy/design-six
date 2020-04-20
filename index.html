@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapely Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link rel="icon" href="images/g.gif">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/paper-full.min.js"></script>
+</head>
+
+<body>
+    <section class="home-page" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Shapely Demo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-uppercase" href="#home">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ABOUT THE TESTS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                LEVEL 1
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown pr-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SHOP
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="hov">
+                        <button class="border-0 p-0 bg-transparent">
+                            <i class="fas fa-search fa-fw text-primary"></i>
+                        </button>
+                        <div class="search">
+                            <form class="form-inline my-2 my-lg-0 justify-content-center">
+                                <input class="form-control mr-sm-2" type="search" placeholder="TYPE HERE"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="home-caption text-center d-flex align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="w-75 pt-5 pb-5 mt-4">
+                    <h1 class="text-white pb-3 pt-5">We Change Everything WordPress</h1>
+                    <p class="text-white mb-4">This is the only WordPress theme you will ever want to use.</p>
+                    <div class="mt-4">
+                        <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold mb-1">READ
+                            MORE</button>
+                        <button type="button" class="bt-down bg-transparent py-3 px-4 font-weight-bold">DOWNLOAD
+                            NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seo mt-5">
+        <div class="container-fluid pt-5 pb-5">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div>
+                        <img src="images/macbook-preview-flexible.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="seo-p pl-5 justify-content-center">
+                        <h2>SEO Friendly</h2>
+                        <p class="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar
+                            luctus
+                            sem, eget porta
+                            orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae
+                            ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies
+                        </p>
+                        <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portifolio">
+        <div class="container-fluid pt-5 pb-5">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="seo-p pl-5 justify-content-center">
+                        <h2>Portfolio Section</h2>
+                        <p class="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar
+                            luctus
+                            sem, eget porta
+                            orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae
+                            ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies
+                        </p>
+                        <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold">SEE IT IN
+                            ACTION</button>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div>
+                        <img src="images/flexible-portfolio.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Small-Parallax-Section d-flex justify-content-center align-items-center text-center">
+        <div class="container">
+            <h2 class="text-white display-4">Small Parallax Section</h2>
+            <div class="d-flex justify-content-center">
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet rhoncus
+                    porta. Ut quis sem
+                    quis purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget
+                    tincidunt
+                    leo ornare quis.</p>
+            </div>
+            <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold mt-4">MORE INFO</button>
+        </div>
+    </section>
+    <section class="limitless-opt text-center">
+        <div class="container-fluid pt-5">
+            <h2 class="pt-5 mb-4">Limitless Options</h2>
+            <div class="w-75 m-auto">
+                <p>
+                    Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate
+                    porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante
+                </p>
+            </div>
+            <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold mt-4 mb-4">DOWNLOAD NOW</button>
+            <img src="images/forest.jpg" class="img-fluid">
+        </div>
+    </section>
+    <section class="projects text-center pt-5">
+        <h2 class="text-white pt-5">Our Latest Projects</h2>
+        <p class="text-white my-5">Here is our latest projects. You'll love them!</p>
+        <div class="w-100">
+            <div class="row mr-0 ml-0 overflow-hidden">
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/rev.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/man2.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/rocks.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/ice.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row mr-0 ml-0 overflow-hidden">
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/for.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/girl3.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/fo.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/dahab.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row mr-0 ml-0 overflow-hidden">
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/sea.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="images/gg.jpg" class="img-fluid">
+                    <a href="#">
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                            <h3 class="">Project#</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="" class="img-fluid">
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 p-0">
+                    <img src="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="customers text-center pt-5">
+        <h2 class="text-white pt-5 h1 pb-5">What Our Customers Say</h2>
+        <section class="d-flex justify-content-center">
+            <div id="carouselExampleControls" class="carousel slide d-flex justify-content-center w-75 pb-5"
+                data-ride="carousel">
+                <div class="carousel-inner d-flex align-items-center">
+                    <div class="carousel-item active">
+                        <div class="p-w">
+                            <p class="text-white">Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus
+                                dictum,
+                                augue tortor dictum
+                                ipsum, nec congue arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra
+                                rhoncus libero. Aliquam varius viverra ex, in venenatis magna ornare sit amet. Integer
+                                varius sit amet turpis eu ullamcorper.</p>
+                        </div>
+                        <div class="img-w">
+                            <img src="images/mike-muller-150x150.jpg" class="d-block w-100 rounded-circle img-fluid"
+                                alt="...">
+                            <h6 class="text-white text-center mt-3">John Doe</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="p-w">
+                            <p class="text-white">Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit,
+                                vehicula at nibh sed,
+                                porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae, euismod et
+                                justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida
+                                hendrerit ante</p>
+                        </div>
+                        <div class="img-w">
+                            <img src="images/Aigars-Silkalns-150x150.jpg" class="d-block w-100 rounded-circle img-fluid"
+                                alt="...">
+                            <h6 class="text-white text-center mt-3 d-flex justify-content-center">Aigars Silkalns</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+    <section class="our-main-clients pt-5 pb-5 mb-5">
+        <h2 class="text-center mt-5 mb-5 pb-3">Our Main Clients</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ww d-flex justify-content-around">
+                        <a href="#" class="m-3"><img src="images/css-logo.png" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/html5-logo.png" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/js-logo.png" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/less-logo.png" class="img-fluid" alt="..."></a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="ww d-flex justify-content-around">
+                        <a href="#" class="m-3"><img src="images/adobe-logo.png" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/bootstrap-logo.jpg" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/facebook-logo.png" class="img-fluid" alt="..."></a>
+                        <a href="#" class="m-3"><img src="images/colorlib-logo.png" class="img-fluid" alt="..."></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="do-you-like py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 pl-5">
+                    <p class="h2">Do you like this awesome WordPress theme?</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <button type="button" class="bt-read border-0 py-3 px-5 font-weight-bold mt-4 mb-4">DOWNLOAD
+                        NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer py-5">
+        <div class="container-fluid px-5 py-5">
+            <div class="row align-items-center mt-4 justify-content-center">
+                <div class="col-md-8 pl-5">
+                    <p class="h6">Theme by Colorlib Powered by WordPress</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f fa-fw mr-3"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-fw mr-3"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in fa-fw mr-3"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square fa-fw mr-3"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#home"><button type="button"><i class="fa fa-angle-up p-1"></i></button></a>
+    </section>
+</body>
+
+</html>
